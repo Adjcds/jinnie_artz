@@ -1,0 +1,62 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+  }
+  
+  .rodape-modo-claro {
+    background-color: #ec69ab;
+  }
+  
+  .rodape-modo-escuro {
+    background-color: #252525;
+  }
+  
+  .rodape-modo-escuro .copyright {
+    border-top: 1px solid #ffffff0d;
+  }
+  
+  .paragrafo {
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    max-width: 600px;
+    line-height: 32px;
+    text-align: center;
+    margin: 36px auto 42px;
+  }
+  
+  .iconesRodape {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 375px;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+  }
+  
+.logorodape{
+  width: 280px;
+}
+
+  .iconesRodape img {
+    width: 45px;
+    cursor: pointer;
+  }
+  
+  .copyright {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  
+  .copyright span {
+    color: blueviolet;
+  }

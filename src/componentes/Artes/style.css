@@ -1,0 +1,174 @@
+  .secao-nossos-sabores,
+  .secao-nossos-eventos,
+  .secao-sobre-nos {
+    display: flex;
+  }
+  
+  .secao-nossos-sabores img,
+  .secao-nossos-eventos img,
+  .secao-sobre-nos img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .texto-secao-nossos-sabores,
+  .texto-secao-nossos-eventos,
+  .texto-secao-sobre-nos {
+    width: 50%;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  
+  .texto-secao-nossos-sabores h2,
+  .texto-secao-nossos-eventos h2,
+  .texto-secao-sobre-nos h2 {
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+  }
+  
+  .texto-secao-nossos-sabores span,
+  .texto-secao-nossos-eventos span,
+  .texto-secao-sobre-nos span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .texto-secao-nossos-sabores p,
+  .texto-secao-nossos-eventos p,
+  .texto-secao-sobre-nos p {
+    padding: 0 100px;
+    line-height: 26px;
+    margin: 40px 0;
+  }
+  
+  .artes-modo-claro {
+    background-color: #ec7db5;
+  }
+  
+  .artes-modo-claro p, h2, span {
+    color: #000000;
+  }
+
+  .artes-modo-escuro {
+    background-color: #161616;
+  }
+
+  .artes-modo-escuro p, h2, span {
+   color:#ffffff;
+  }
+  
+
+
+  /* Estilo para o botão "Twitch" na seção "Emotes Twitch" */
+.Twitch {
+    background-color: #6441a4; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    text-decoration: none; /* Remova sublinhado */
+    border: none; /* Remova a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    font-weight: bold; /* Texto em negrito */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+  }
+  
+  .Twitch:hover {
+    background-color: #8151d3; /* Cor de fundo ao passar o mouse */
+  }
+  
+/* Estilo para o botão "Instagram" na seção "Ilustrações" */
+.Instagram {
+    background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90% /* Cor de fundo */
+    );
+    outline-color: #a02d76;
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    text-decoration: none; /* Remova sublinhado */
+    border: none; /* Remova a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    font-weight: bold; /* Texto em negrito */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+  }
+  
+  .botao-link:hover {
+    background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+  }
+
+  @media screen and (max-width: 1024px) {
+  
+     .texto-secao-nossos-eventos p,
+     .texto-secao-nossos-sabores p,
+     .texto-secao-sobre-nos p {
+       padding: 0px 50px
+     }
+  }
+  
+  @media screen and (max-width: 768px){
+  
+    .texto-banner h1 {
+      font-size: 60px;
+    }
+  
+    .secao-nossos-sabores {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-nossos-sabores img {
+      width: 100%;
+    }
+  
+    .texto-secao-nossos-sabores,
+    .texto-secao-nossos-eventos,
+    .texto-secao-sobre-nos {
+      width: 100%;
+      padding: 100px 10px;
+      text-align: center;
+    }
+  
+    .secao-nossos-eventos {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .secao-nossos-eventos img {
+      width: 100%;
+    }
+  
+    .secao-sobre-nos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-sobre-nos img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 425px){
+    .texto-banner h1 {
+      font-size: 40px;
+    }
+  
+    .texto-secao-nossos-eventos h2,
+    .texto-secao-nossos-sabores h2,
+    .texto-secao-sobre-nos h2 {
+      line-height: 40px;
+    }
+  }
