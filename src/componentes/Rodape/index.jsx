@@ -1,6 +1,5 @@
 import "./style.css";
 import Logo from '../../assets/logo.png';
-import iconeLinkedin from '../../assets/linkedin.png';
 
 
 export default function Rodape(props) {
@@ -9,12 +8,8 @@ export default function Rodape(props) {
     <footer className={props.ehTemaEscuro ? 'rodape-modo-escuro' : 'rodape-modo-claro'}>
       <img className="logorodape" src={Logo} alt="logomarca"/>
       <p className="paragrafo">
-        Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
-        ferramentas e tecnologias personalizadas.
+      Em cada pixel, eu desenho o universo digital. Bem-vindo à Galaxia Artz, onde a criatividade encontra a tecnologia.
       </p>
-      <div className="iconesRodape">
-        <img src={iconeLinkedin} alt="linkedin"/>
-      </div>
       <div>
         <p className="copyright">Copyright 2022 &copy; <span>AdrielleJcds</span></p>
       </div>

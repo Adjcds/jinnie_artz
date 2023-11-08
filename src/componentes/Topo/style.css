@@ -6,7 +6,8 @@ header {
     justify-content: space-between;
     position: fixed;
     z-index: 1;
-  }
+    text-decoration: none;
+}
   
   .topo-modo-claro {
     background-color: #EE5AA5;

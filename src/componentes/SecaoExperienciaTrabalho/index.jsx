@@ -31,7 +31,7 @@ export default function SecaoExperienciaTrabalho(props) {
   data="Desde de Dezembro 2022"
          titulo="Web designer"
          empresa="Autônoma"
-          paragrafo="Durante o curso de UX Design com foco no uso da ferramenta Figma, desenvolvi um projeto centrado na criação de um site de anotações compartilháveis. durante o curso oferecido pela DevMedia sobre desenvolvimento de Front-End, tive a oportunidade de aprofundar meus conhecimentos na construção de interfaces web modernas e responsivas. Durante este projeto, explorei técnicas avançadas de HTML, CSS, Javacript e React"
+        paragrafo="Durante o curso de UX Design com foco no uso da ferramenta Figma, desenvolvi um projeto centrado na criação de um site de anotações compartilháveis. durante o curso oferecido pela DevMedia sobre desenvolvimento de Front-End, tive a oportunidade de aprofundar meus conhecimentos na construção de interfaces web modernas e responsivas. Durante este projeto, explorei técnicas avançadas de HTML, CSS, Javacript e React"
         />
       </div>
     </section>

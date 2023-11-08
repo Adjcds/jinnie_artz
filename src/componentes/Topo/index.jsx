@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './style.css'
 import Logo from '../../assets/logo.png'
 import iconeSol from '../../assets/sun.png'
@@ -12,5 +14,6 @@ export default function Topo(props) {
         <img className='iconesBtn' src={props.ehTemaEscuro ? iconeSol : iconeLua} alt='icone'/>
       </button>
     </header>
+    
   )
 }

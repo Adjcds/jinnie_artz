@@ -1,0 +1,78 @@
+/* Estilos para o modo claro */
+#tabela {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+.tabela-modo-claro {
+    background-color: #ec7db5;
+  }
+  
+.tabela-modo-escuro {
+    background-color: #161616;
+  }
+  
+.tabela  h2 {
+    font-size: 50px;
+    text-align: center; /* Centraliza o título h2 */
+  }
+  
+.tabela  p {
+    color: #fff;
+    text-align: center; /* Centraliza o parágrafo */
+  }
+  
+  table {
+    margin: 0 auto; /* Centraliza a tabela na página */
+    background-color: #222; /* Cor de fundo da tabela no modo claro */
+    border: 1px solid #000000; /* Borda da tabela no modo claro */
+  }
+  
+  table th {
+    background-color: #333; /* Cor de fundo do cabeçalho no modo claro */
+    color: #fff; /* Cor do texto do cabeçalho no modo claro */
+    font-size: 30px; /* Tamanho da fonte do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+  }
+  
+  /* Estilos para as células da tabela (exceto os preços) */
+  table td {
+    padding: 30px; /* Espaçamento interno das células aumentado para 30px */
+    text-align: center; /* Centraliza o texto nas células */
+  }
+  
+  /* Estilos para as linhas ímpares da tabela */
+  table tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Cor de fundo das linhas ímpares no modo claro */
+  }
+  
+  /* Estilos para as linhas pares da tabela */
+  table tr:nth-child(even) {
+    background-color: #ececec; /* Cor de fundo das linhas pares no modo claro */
+  }
+  
+  /* Estilos para o modo escuro */
+  .tabela-modo-escuro {
+    background-color: #333; /* Cor de fundo no modo escuro */
+    color: #fff; /* Cor do texto no modo escuro */
+    border: 1px solid #ffffff00; /* Borda no modo escuro */
+  }
+  
+  .tabela-modo-escuro table {
+    background-color: #000; /* Cor de fundo da tabela no modo escuro */
+    border: 1px solid #ffffff; /* Borda da tabela no modo escuro */
+  }
+  
+  .tabela-modo-escuro table th {
+    background-color: #111; /* Cor de fundo do cabeçalho no modo escuro */
+    color: #fff; /* Cor do texto do cabeçalho no modo escuro */
+  }
+  
+  .tabela-modo-escuro table tr {
+    background-color: #222; /* Cor de fundo das linhas no modo escuro */
+  }
+  
