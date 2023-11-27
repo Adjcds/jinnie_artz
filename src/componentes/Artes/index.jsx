@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 import iconeImage from '../../assets/icone.png';
-import weskerImage from '../../assets/wesker.png';
+import bagdeImage from '../../assets/bagde.png';
 import kreewhaitImage from '../../assets/kreewhait.png';
 
 export default function Artes(props) {
@@ -34,14 +34,13 @@ export default function Artes(props) {
   </section>
 
  <section className="secao-sobre-nos">
- <img src={weskerImage} alt="Emotes Wesker" />
+ <img src={bagdeImage} alt="Emotes Wesker" />
 <div className="texto-secao-sobre-nos">
-  <h2>Emotes Twitch</h2>
-  <span>Wesker</span>
+  <h2>Icones Twitch para Subs</h2>
+  <span>Bagdes</span>
   <p>
-  Emoticons baseados no personagem Wesker de Resident Evil, crio emotes que acrescentam uma dose de ação e mistério às transmissões de Luhk.
-  </p>
-  <a href="https://www.twitch.tv/luhk_" className="Twitch" target="_blank" rel="noreferrer"> Twitch</a>
+  Emoticons personalizados apenas para os subs do canal Kreewhait na Twitch. Cada badge é uma obra de arte, adicionando personalidade e diversão exclusiva às transmissões. 🌟  </p>
+  <a href="https://www.twitch.tv/kreewhait" className="Twitch" target="_blank" rel="noreferrer"> Twitch</a>
 </div>
  </section>
 </footer>
